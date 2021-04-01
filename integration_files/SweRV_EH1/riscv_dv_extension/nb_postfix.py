@@ -16,6 +16,7 @@
 
 from argparse import ArgumentParser
 
+
 def nb_post_fix(rtl_log_f,rtl_log,nb_log):
     ''' Replaces non-blocking load results in rd of trace log.
     Sees time/CycleCnt at which non-block load is written back to gpr,
